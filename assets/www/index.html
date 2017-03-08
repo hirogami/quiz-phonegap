@@ -14,12 +14,12 @@
     <script type="text/javascript" charset="utf-8"  src="js/sql.js"></script>
 
     <script type="text/javascript"  charset="utf-8">
-    
+
     var total_questions=0;
     var currentQuestion=-1;
 
     $.mobile.page.prototype.options.domCache= true;
-    
+
     $('li').live('click', function(){
         $(this).siblings().removeClass('selected');
         $(this).addClass('selected');
@@ -36,7 +36,7 @@
         var q_no = parseInt($(this).attr('data-question-no'),10);
         window.localStorage.setItem("currentQuestion",q_no -1);
         var selected_answer =$("#quest"+ (q_no) + " li.selected");
-        
+
 
         if(selected_answer.length === 0)
         {
@@ -45,7 +45,7 @@
             return false;
         }
         else
-        { 
+        {
             var answer = selected_answer.attr("data-answer-no");
             window.localStorage.setItem("selectedAnswer",answer);
             db.transaction(updateSelectedAnswer,transaction_error);
@@ -54,7 +54,7 @@
                 db.transaction(checkResults,transaction_error);
                 $.mobile.changePage("#finish")
             }
-            else 
+            else
             {
                 $('#error-display-' + q_no).text("");
                 $.mobile.changePage("#quest" + (q_no +  1))
@@ -68,14 +68,14 @@
 </script>
 </head>
 <body onload="onDeviceReady()">
-    <div data-role="page" id="start">
+    <div data-role="page" id="startJapanse">
         <div data-role="header">
-            <h1>Quiz</h1>
+            <h1>Quiz日本</h1>
         </div>
         <div data-role="content" >
-            <p>Quiz on PhoneGap</p>
+            <p>Quiz Japanese on PhoneGap</p>
             <div class="intro-container slide-container"  style="display: block;">
-                <p>Let's get started!</p>
+                <p>Let's get started日本語 Japanses!</p>
                 <p><a href="#quest1" class="nav-start" data-role="button">Start</a></p>
             </div>
         </div>

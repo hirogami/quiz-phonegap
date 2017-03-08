@@ -1,7 +1,7 @@
 {
-  "questions": [ 
+  "questions": [
        {
-           "question": "True or False: Java is a strongly typed language.",
+           "question": "True or False: JavaJapanese is a strongly typed language.",
            "answers": ["True", "False"],
        	   "correctAnswer": 1
        },
@@ -57,9 +57,9 @@
        },
        {
            "question": "When does an else statement execute?",
-           "answers": ["when at least one preceding \"if\" or \"else if\" statement has returned false", 
-           "when all preceding \"if\" and \"else if\" statements have returned true", 
-           "always regardless of what previous statements have returned", 
+           "answers": ["when at least one preceding \"if\" or \"else if\" statement has returned false",
+           "when all preceding \"if\" and \"else if\" statements have returned true",
+           "always regardless of what previous statements have returned",
            "when all preceding \"if\" and \"else if\" statements have returned false"],
        	   "correctAnswer": 4
        },
@@ -75,7 +75,7 @@
        },
        {
            "question": "What must \"a\" be here: while(a)",
-           "answers": ["a number greater than or equal to zero", "an object reference", 
+           "answers": ["a number greater than or equal to zero", "an object reference",
            "an expression that returns a value of true or false", "a primitive type variable"],
        	   "correctAnswer": 3
        },
@@ -93,6 +93,6 @@
            "question": "Which of the following data types cannot be used as the expression in a switch statement?",
            "answers": ["char", "Integer", "short", "Object"],
        	   "correctAnswer": 4
-       } 
+       }
      ]
  }
