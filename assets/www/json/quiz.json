@@ -1,12 +1,12 @@
 {
   "questions": [
        {
-           "question": "あなたは柴田遊悟さんですか？",
+           "question": "あなたは宋紅衛さんですか？",
            "answers": ["はい", "いいえ"],
        	   "correctAnswer": 1
        },
        {
-           "question": "In Java Strings are primitive types.",
+           "question": "あなたはJustin Bieberが好きですか？",
            "answers": ["True", "False"],
        	   "correctAnswer": 2
        },
