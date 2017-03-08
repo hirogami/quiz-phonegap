@@ -1,8 +1,8 @@
 {
   "questions": [
        {
-           "question": "True or False: JavaJapanese is a strongly typed language.",
-           "answers": ["True", "False"],
+           "question": "あなたは柴田遊悟さんですか？",
+           "answers": ["はい", "いいえ"],
        	   "correctAnswer": 1
        },
        {
