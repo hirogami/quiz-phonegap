@@ -1,18 +1,18 @@
 {
   "questions": [
        {
-           "question": "あなたは宋紅衛さんですか？",
+           "question": "日本の総理大臣は安倍信三ですか？",
            "answers": ["はい", "いいえ"],
        	   "correctAnswer": 1
        },
        {
-           "question": "あなたはJustin Bieberが好きですか？",
+           "question": "森友学園は東京にありますか？",
            "answers": ["True", "False"],
        	   "correctAnswer": 2
        },
        {
-           "question": "Which of the following refers to creating an object using the keyword \"new\"?",
-           "answers": ["assignment", "instantiation", "declaration", "iteration"],
+           "question": "次の文の（　）に何がはいりますか？　こんなアプリが作成できるのもPhoneGapとGithubがあれば（　）です。",
+           "answers": ["なあ", "こそ", "どう", "まで"],
        	   "correctAnswer": 2
        },
        {
