@@ -7,14 +7,14 @@
 
 <!-- versionCode is optional and Android only -->
 
-  <name>PhoneGap shibata</name>
+  <name>柴田shibata</name>
 
   <description>
       An example for simple quiz.
   </description>
 
-  <author href="http://www.multilingualhearts.com/" email="shibatau`gmail.com">
+  <author href="http://www.multilingualhearts.com/" email="shibatau@gmail.com">
       Hardeep Shoker
   </author>
-  
+
 </widget>
