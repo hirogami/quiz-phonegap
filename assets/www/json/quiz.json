@@ -1,24 +1,24 @@
 {
   "questions": [
        {
-           "question": "日本の総理大臣は安倍信三ですか？",
+           "question": "柴田ゼミに入りたいですか？",
            "answers": ["はい", "いいえ"],
        	   "correctAnswer": 1
        },
        {
-           "question": "森友学園は東京にありますか？",
-           "answers": ["True", "False"],
-       	   "correctAnswer": 2
+           "question": "コンピュータはすきですか？",
+           "answers": ["はい", "いいえ"],
+       	   "correctAnswer": 1
        },
        {
-           "question": "次の文の（　）に何がはいりますか？<br>こんなアプリが作成できるのもPhoneGapとGithubがあれば（　）です。",
-           "answers": ["なあ", "こそ", "どう", "まで"],
-       	   "correctAnswer": 2
+           "question": "英語はすきですか？",
+           "answers": ["はい", "いいえ"],
+       	   "correctAnswer": 1
        },
        {
-           "question": "問題文を改行するのはどうしますか?",
-           "answers": ["<br>", "xlmで定義", "return", "not know"],
-       	   "correctAnswer": 3
+           "question": "この文章は改行されていますが、<br>どのような方法で改行されていると思いますか？",
+           "answers": ["br", "xlmで定義", "return", "not know"],
+       	   "correctAnswer": 1
        },
        {
            "question": "True or False: Java Strings are immutable.",
