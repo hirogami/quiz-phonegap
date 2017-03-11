@@ -11,13 +11,13 @@
        	   "correctAnswer": 2
        },
        {
-           "question": "次の文の（　）に何がはいりますか？　こんなアプリが作成できるのもPhoneGapとGithubがあれば（　）です。",
+           "question": "次の文の（　）に何がはいりますか？<br>こんなアプリが作成できるのもPhoneGapとGithubがあれば（　）です。",
            "answers": ["なあ", "こそ", "どう", "まで"],
        	   "correctAnswer": 2
        },
        {
-           "question": "Which of the following is not a primitive type?",
-           "answers": ["int", "char", "Float", "byte"],
+           "question": "問題文を改行するのはどうしますか?",
+           "answers": ["<br>", "xlmで定義", "return", "not know"],
        	   "correctAnswer": 3
        },
        {
